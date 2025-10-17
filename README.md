@@ -20,6 +20,10 @@ This project template is from [`Android Plugin Template`](https://github.com/m4g
 * Go to Project then click Reload Current Project.
 * Add `LiveWallpaper` node using the plus add-node button in the scene tab.
 
+## Before Export
+* Go to Project -> Install Android Build Template.
+* From Project -> Export -> Android, Enable 'Use Gradle Build'.
+
 ## How to use
 Once the `LiveWallpaper` node has been added to the scene. You can:
 * reference it from any script and start live wallpaper service by calling `start_live_wallpaper_service()` method
