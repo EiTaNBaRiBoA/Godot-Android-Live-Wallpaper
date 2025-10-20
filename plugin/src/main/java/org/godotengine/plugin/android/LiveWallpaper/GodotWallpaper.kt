@@ -33,7 +33,10 @@ class GodotWallpaper(private val context: Context) : GodotHost {
         mSurfaceHolder=holder
     }
 
-    fun InitRenderEngine(){
+    fun InitRenderView(){
+//        if (godot.onInitRenderView(this) == null) {
+//            throw IllegalStateException("Unable to initialize engine render view")
+//        }
         godotGLRenderViewLW = object : GodotGLRenderViewWP(context,  mGodot) {
             override fun getHolder(): SurfaceHolder {
                 return mSurfaceHolder!!

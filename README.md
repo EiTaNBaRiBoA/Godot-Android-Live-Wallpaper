@@ -8,17 +8,17 @@
 
 
 # Godot Android Live Wallpaper
-Make your Godot Android application run in the background as a live wallpaper. To download the release, ready to use plugin files go to the [`Release`](https://github.com/TheOathMan/Godot-Android-Live-Wallpaper/releases) section. To learn more about Godot Android Live Wallpaper, read more. 
+Make your Godot Android application run in the background as a live wallpaper. This plugin is available in the Asset Library [`here`](https://godotengine.org/asset-library/asset/4340). To download the released plugin files go to the [`Release`](https://github.com/TheOathMan/Godot-Android-Live-Wallpaper/releases) section. To learn more about Godot Android Live Wallpaper plugin, read more. 
 
-This project template is from [`Android Plugin Template`](https://github.com/m4gr3d/Godot-Android-Plugin-Template). Also see [`Creating Android plugins`](https://docs.godotengine.org/en/4.0/tutorials/platform/android/android_plugin.html) for more details about godot plugins for android.
+This project template is from [`Android Plugin Template`](https://github.com/m4gr3d/Godot-Android-Plugin-Template). Also see [`Creating Android plugins`](https://docs.godotengine.org/en/4.0/tutorials/platform/android/android_plugin.html) for more details about Godot plugins for android.
 
 ## How to setup
 * Extract `GodotLiveWallpaperPlugin.zip` file.
-* Drag the`addons` folder to your project folder's `res://` root folder.
+* Drag the`addons` folder to your project's `res://` root folder.
 * Go to Project -> Project settings -> Plugins.
 * Enable `LiveWallpaper` plugin.
 * Go to Project then click Reload Current Project.
-* Add `LiveWallpaper` node using the plus add-node button in the scene tab.
+* Add `LiveWallpaper` node using the `+` add-node button in the Scene tab.
 
 ## Before Export
 * Go to Project -> Install Android Build Template.

@@ -17,4 +17,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "LiveWallpaper"
 include(":plugin")
-include(":GD4_5")

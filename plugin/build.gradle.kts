@@ -39,8 +39,10 @@ android {
         jvmTarget = "17"
     }
 }
+
+
 dependencies {
-    api(project(":GD4_5"))
+    implementation("org.godotengine:godot:4.5.0.stable")
 }
 
 // BUILD TASKS DEFINITION

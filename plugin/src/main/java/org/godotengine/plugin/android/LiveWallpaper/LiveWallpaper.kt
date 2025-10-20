@@ -94,7 +94,7 @@ class LiveWallpaperService : WallpaperService() {
             mSurfaceHolder = surfaceHolder
             mGodotWallpaper?.SetSurfaceHolder(mSurfaceHolder!!)
             if(EngineRun==1) {
-                mGodotWallpaper?.InitRenderEngine()
+                mGodotWallpaper?.InitRenderView()
                 return
             }
             mGodotWallpaper?.SurfaceUpdated()
